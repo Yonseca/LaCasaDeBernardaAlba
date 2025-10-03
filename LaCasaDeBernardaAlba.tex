@@ -1,46 +1,73 @@
-\documentclass[12pt,twoside,openany,showtrims,a5paper]{memoir}
+% !TEX root = LaCasaDeBernardaAlba.tex
+\documentclass[a5paper]{stage}
 \usepackage[utf8]{inputenc}
 \usepackage[spanish]{babel}
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
-\usepackage{tabularx}
-\author{Federico García Lorca}
-\title{La casa de Bernarda Alba}
-\begin{document}
-\book{La Casa de Bernarda Alba}
-\part{Acto primero}
-\begin{table}[hbt!]
-\setlength{\tabcolsep}{2pt} %% default is 6pt
-\begin{tabular}{l l l}
-\multicolumn{2}{c}{Personajes} & Intérpretes \\ 
-BERNARDA & 60 años & Margarita Xirgu \\ 
-MARÍA JOSEFA (madre de Brda.) & 80 años & Antonia Herrero \\ 
-ANGUSTIAS (hija de Bernarda) & 39 años & Teresa Serrador \\ 
-MAGDALENA (hija de Bernarda) & 30 años & Carmen Caballero \\ 
-AMELIA (hija de Bernarda) & 27 años & Teresa Pradas \\ 
-MARTIRIO (hija de Bernarda) & 24 años & Pilar Muñoz \\ 
-ADELA (hija de Bernarda) & 20 años & Isabel Pradas \\ 
-LA PONCIA (criada) & 60 años & María Gámez \\ 
-CRIADA & 50 años & Luz Barrilaro \\ 
-PRUDENCIA & 50 años & Emilia Milán \\ 
-MUJER 1ª & - - & Susana N. Gómez \\ 
-MUJER 2ª & - - & Aída Espí \\ 
-MUJER 3ª & - - & María López Silva \\ 
-MUJER 4ª & - - & Emilia López \\ 
-MUCHACHA & - - & Susana Canales \\ 
-\multicolumn{3}{c}{MUJERES DE LUTO} \\ 
-\end{tabular} 
-\end{table}
-\begin{center}
-\scshape{Decorados sobre bocetos de SANTIAGO ONTAÑÓN}
-\end{center}
-\begin{center}
-El poeta advierte que estos tres actos tienen la intención de un documental fotográfico
-\end{center}
+\renewcommand{\theendname}{Fin}
 
-\paragraph{Mujer 1ª}
-Los pobres sienten también sus penas.
-\paragraph{Bernarda.}
-Pero las olvidan delante de un plato de garbanzos.
+% Macros
+\def\Bernarda{\dialog{Bernarda}}
+\def\MaríaJosefa{\dialog{MaríaJosefa}}
+\def\Angustias{\dialog{Angustias}}
+\def\Magdalena{\dialog{Magdalena}}
+\def\Amelia{\dialog{Amelia}}
+\def\Martirio{\dialog{Martirio}}
+\def\Adela{\dialog{Adela}}
+\def\Poncia{\dialog{La Poncia}}
+\def\Prudencia{\dialog{Prudencia}}
+\def\Criada{\dialog{Criada}}
+\def\MujerUno{\dialog{Mujer 1ª}}
+\def\MujerDos{\dialog{Mujer 2ª}}
+\def\MujerTres{\dialog{Mujer 3ª}}
+\def\MujerCuatro{\dialog{Mujer 4ª}}
+\def\Muchacha{\dialog{Muchacha}}
+
+
+    \begin{document}
+    \author{Federico García Lorca}
+    \title{La casa de Bernarda Alba}
+    \maketitle
+    \begin{castpage}
+		\addcharacter{Bernarda}{60 años. }
+		\addcharacter{María Josefa}{Madre de Bernarda. 80 años. }
+		\addcharacter{Angustias}{Hija de Bernarda. 39 años}
+		\addcharacter{Magdalena}{Hija de Bernarda. 30 años}
+		\addcharacter{Amelia}{Hija de Bernarda. 27 años}
+		\addcharacter{Martirio}{Hija de Bernarda. 24 años}
+		\addcharacter{Adela}{Hija de Bernarda. 20 años}
+		\addcharacter{La Poncia}{Criada. 60 años}
+		\addcharacter{Criada}{50 años}
+		\addcharacter{Prudencia}{50 años}
+		\addcharacter{Mujer 1ª}{}
+		\addcharacter{Mujer 2ª}{}
+		\addcharacter{Mujer 3ª}{}
+		\addcharacter{Mujer 4ª}{}
+		\addcharacter{Muchacha}{}
+		\addcharacter{Mujeres de luto}{}
+		\begin{center}
+	El poeta advierte que estos tres actos tienen la intención de un documental fotográfico
+		\end{center}
+    \end{castpage}
+    \act
+    \scene
+    \stage{Habitación blanquísima del interior de la casa de Bernarda. Muros gruesos. Puertas en arco con cortinas de yute rematadas en madroños y volantes. Sillas de anea. Cuadros con paisajes inverosímiles de ninfas o reyes de leyenda. Es verano. Un gran silencio umbroso se extiende por la escena. Al levantarse el telón está la escena sola. Se oyen doblar las campanas. Sale la \introduce{Criada}}
+    	\Criada{Ya tengo el doble de esas campanas metido entre las sienes.}
+    	\Poncia{\charsd{Sale comiendo chorizo y pan}Llevan ya más de dos horas de gori-gori. Han venido curas de todos los pueblos. La iglesia está hermosa. En el primer responso se desmayó la Magdalena.} 
+		\Criada{Es la que queda más sola.}
+		\Poncia{Era la única que quería la padre. ¡Ay! ¡Gracias a Dios que estamos solas un poquito! Yo he venido a comer}
+		\Criada{¡Si te viera Bernarda...!}
+		\Poncia{¡Quisiera que ahora, que no come ella, que todas nos muriéramos de hambre! ¡Mandona! ¡Dominanta! ¡Pero se fastidia! Le he abierto la orza de chorizos}
+		\Criada{\charsd{Con tristeza, ansiosa}¿Por qué no me das para mi niña, Poncia?}
+		\Poncia{Entra y llévate también un puñado de garbanzos.¡Hoy no se dará cuenta!}
+		\dialog{Voz}{\charsd{Dentro}¡Bernarda!}
+		\Poncia{La vieja. ¿Está bien cerrada?}
+		\Criada{Con dos vueltas de llave}
+		\Poncia{Pero debes poner también la tranca. Tiene unos dedos como cinco ganzúas}
+		\dialog{Voz}{¡Bernarda!}
+		\Poncia{\charsd{A voces} ¡Ya viene! \charsd{A la Criada} Limpia bien todo. Si Bernarda no ve relucientes las cosas me arrancará los pocos pelos que me quedan}
+		\Criada{¡Qué mujer!}
+
+
 \end{document}
