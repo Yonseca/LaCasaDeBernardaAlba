@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1759450133.01475 "/home/yonseca/Documentos/La casa de Bernarda Alba LaTeX/LaCasaDeBernardaAlba.tex" "LaCasaDeBernardaAlba.pdf" "LaCasaDeBernardaAlba" 1759450133.26353 0
-  "/home/yonseca/Documentos/La casa de Bernarda Alba LaTeX/LaCasaDeBernardaAlba.tex" 1759450132.80558 3352 147fc3135f095e72a83a08223823a96a ""
+["pdflatex"] 1759791291.30057 "/home/yonseca/Documentos/La casa de Bernarda Alba LaTeX/LaCasaDeBernardaAlba.tex" "LaCasaDeBernardaAlba.pdf" "LaCasaDeBernardaAlba" 1759791291.54449 0
+  "/home/yonseca/Documentos/La casa de Bernarda Alba LaTeX/LaCasaDeBernardaAlba.tex" 1759791291.10929 6330 35831c4b6e7297b89d78465b2ac68482 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1755987285 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/share/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1755987285 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1755987285 1004 54797486969f23fa377b128694d548df ""
@@ -56,8 +56,8 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1755987285 42087 b0f9697c952c8f5a8eede4134282cb0d ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1759278013 325445 e037c2d0d08ad8cbac81cfa7969967b5 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1759448477 2030634 f78dd8b13e1a2ed4955a266fa08d1e34 ""
-  "LaCasaDeBernardaAlba.aux" 1759450133.21958 232 24afd9b12cb36b06a4fa8c1b17b2b49b "pdflatex"
-  "LaCasaDeBernardaAlba.tex" 1759450132.80558 3352 147fc3135f095e72a83a08223823a96a ""
+  "LaCasaDeBernardaAlba.aux" 1759791291.51109 232 03d047d440f873e5b5be3571cf2d4144 "pdflatex"
+  "LaCasaDeBernardaAlba.tex" 1759791291.10929 6330 35831c4b6e7297b89d78465b2ac68482 ""
   (generated)
   "LaCasaDeBernardaAlba.aux"
   "LaCasaDeBernardaAlba.log"
